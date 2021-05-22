@@ -1,0 +1,147 @@
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+        :root {
+            --color-rosa: #FF3773;
+            --color-verde:#28F5BE;
+            --color-branca:#f9fbfc;
+
+        }
+        body {
+            font-family: 'Kiwi Maru', serif;
+            color: 333333;
+            font-size: 1rem;
+            line-height:1.625rem;
+        }
+        
+        .conteudo {
+            width: 80%;
+            max-width: 71.25rem;
+            margin: 0, auto, 0, auto;
+        }
+
+        .bloco-de-recursos {
+            text-align: center;
+            width: 30%;
+            display: inline-block;
+            background: #f9fbfc;
+            margin: 3.125rem 0 0.9375rem 0;
+            font-family: 'Kiwi Maru', serif;
+        }
+
+        .bloco-de-recursos h1 {
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            font-weight: 37.5rem;
+        }
+
+        .bloco-de-recursos i {
+            font-size: 3rem;
+            
+        }
+
+        .color-verde {
+            color:var(--color-verde);       }
+
+        .color-rosa {
+            color:var(--color-rosa);
+        }
+
+        .titulo-bloco-de-recursos {
+
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            font-weight: 37.5rem;
+        }
+        .todos-os-blocos-de-recursos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .titulo-de-sessao {
+            width: 50%;
+            margin:0 auto 0 auto;
+            text-align: center;
+
+        }
+
+        .titulo{
+            margin: 0.5rem 0rem;
+            font-weight: 50rem;
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+        
+        .sub-titulo{
+            font-weight: normal;
+            font-size: 1.125rem;
+            line-height: 2rem;
+         }
+
+         /*cabeçalho*/
+
+         .cabecalho{
+             background-color: var(--color-branca);
+             box-shadow: 0rem 0.0625rem 0rem #E5E9F2;
+             padding: 1.625rem 0;
+         }
+
+         .conteudo-do-header,
+         .blocos-de-numeros,
+         .conteudo-conquistas
+         {
+             display: flex;
+             justify-content: space-between;
+
+         }
+         .informacoes-do-cabecalho,
+         .informacoes-do-cabecalho nav{
+             display: flex;
+             align-items: center;
+         }
+
+         .informacoes-do-cabecalho img,
+         .informacoes-do-cabecalho nav a {
+             margin:2rem;
+
+         }
+
+        .informacoes-do-cabecalho nav a{
+             font-weight: bold;
+             font-size: 0.875rem;
+             line-height: 1.25rem;
+             text-decoration: none;
+             color:#18191F;
+         }
+         .botoes-lojas a{
+             margin-right: 0,75rem;
+             text-decoration: none;
+             
+         }
+
+         /* Geral*/
+         .titulo-principal{
+         font-weight: bold;
+         font-size: 4.5rem;
+         line-height: 6.125rem;
+         margin-bottom: 2rem;}
+
+         .botao{
+          background:var(--color-verde) ;
+          color: var(--color-branca);
+          text-decoration: none;
+          padding: 1rem 4.1875rem;
+          text-align: center;
+          border-radius: 0,5rem;
+         }
+
+         .botao:hover{
+             background:var(--color-rosa) ;
+         }
+
+
+        
+            
