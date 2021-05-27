@@ -141,6 +141,20 @@
          .botao:hover{
              background:var(--color-rosa) ;
          }
+         .contato{
+             text-align: center;
+             margin-bottom: 2rem;
+             margin-top: 2rem;
+                      }
+         .formulario{
+             display: flex;
+             justify-content: center;
+             text-align:left;
+             flex-direction: column;
+             height: 25rem;
+             width:80%;
+            margin-left: 1.875rem;}
+            
 
 
         
